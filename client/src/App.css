@@ -1,0 +1,43 @@
+.product {
+  margin: 15px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.product:hover {
+  cursor: pointer;
+}
+
+.product-title {
+  padding: 15px;
+}
+
+.product-data .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.slideup, .slidedown {
+  max-height: 0;
+  overflow-y: hidden;
+  -webkit-transition: max-height 0.5s ease-in-out;
+  -moz-transition: max-height 0.5s ease-in-out;
+  -o-transition: max-height 0.5s ease-in-out;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.slidedown {
+  max-height: 300px ;
+}
+
+.pagination li:hover,
+.pagination .active a:hover {
+  cursor: pointer;
+}
+
+.table th {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}

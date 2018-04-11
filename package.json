@@ -1,0 +1,27 @@
+{
+  "name": "sample-shopify-app",
+  "version": "1.0.0",
+  "description": "Simple Shopify app that displays products and inventory using NodeJS and React. The app is deployed through aws-serverless-express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy"
+  },
+  "author": "Taylor Bagwell",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.1.3",
+    "cookie": "^0.3.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-mysql-session": "^1.2.3",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0",
+    "nonce": "^1.0.4",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "serverless": "^1.26.1"
+  }
+}
